@@ -17,5 +17,12 @@ public static void main(String[] args) {
 			};
 			
 		functionObj.apply("Hilal");
+		
+		
+		// function joining 
+		Function<Integer, Integer > functionObj2 = (e) -> e * 3;
+		System.out.println(functionObj2.apply(6));
+		System.out.println(functionObj.andThen(functionObj2).apply("settra"));
 	}
+
 }

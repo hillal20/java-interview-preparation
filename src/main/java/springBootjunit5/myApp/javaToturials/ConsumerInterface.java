@@ -31,5 +31,6 @@ public class ConsumerInterface {
 		arr1.forEach(consumer2:: accept);
 		
 	}
+	
 
 }

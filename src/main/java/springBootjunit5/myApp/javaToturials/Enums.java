@@ -21,4 +21,5 @@ public class Enums {
 		System.out.println("car ===> " + car.number);
 		
 	}
+	
 }

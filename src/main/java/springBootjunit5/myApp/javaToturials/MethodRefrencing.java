@@ -3,7 +3,7 @@ package springBootjunit5.myApp.javaToturials;
 import java.lang.FunctionalInterface;
 import java.util.function.Function;
 
-class MyClass{ 
+class MClass{ 
 	 static void  print() {
 		 System.out.println("hello guys");
 		 }
@@ -19,7 +19,7 @@ public class MethodRefrencing {
 	
 	public static void main(String[] args) {
 		// method reference can replace lambda expressions 
-		MyFuntionalInterface  myObj = MyClass :: print; 
+		MyFuntionalInterface  myObj = MClass :: print; 
 		// or 
 		MyFuntionalInterface  myObj2 = () -> System.out.println("hello guys 2 ");
 		
